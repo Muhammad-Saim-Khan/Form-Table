@@ -1,0 +1,128 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 58, 58),
+    rgb(190, 47, 190)
+  );
+}
+header {
+  background-color: #24252a;
+  display: flex;
+  color: white;
+  height: 60px;
+  padding: 0 100px;
+  justify-content: space-between;
+  align-items: center;
+  min-width: none;
+}
+.one {
+  gap: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: none;
+}
+a {
+  text-decoration: none;
+  color: #ecdddd;
+  transition: all 1s;
+  min-width: none;
+}
+.rounded-button {
+  border-radius: 20px;
+  padding: 6px 20px;
+  border: none;
+  background-color: rgb(37, 0, 224);
+  min-width: none;
+  color: white;
+}
+samp {
+  font-size: x-large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: red;
+  min-width: none;
+}
+h2 {
+  min-width: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.style:hover {
+  background-color: yellow;
+  transform: scale(1.5) skew(2deg);
+  color: black;
+  padding: 5px;
+  min-width: none;
+}
+.first {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid green; */
+  min-width: none;
+}
+.active {
+  background-color: hwb(0 0% 0%);
+  border: 1px solid black;
+  padding: 5px;
+  min-width: none;
+}
+.flex {
+  display: flex;
+  gap: 20px;
+}
+
+.flex > div,
+fieldset > div {
+  width: 100%;
+}
+
+fieldset {
+  margin-top: 20px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  padding: 50px;
+  margin-bottom: 20px;
+}
+
+.form-fields label {
+  font-size: x-large;
+}
+
+.form-fields select,
+.form-fields input {
+  width: 100%;
+  height: 50px;
+  font-size: large;
+  padding: 5px 20px;
+  display: block;
+}
+span {
+  font-weight: bold;
+}
+p {
+  font-size: xx-large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  margin-top: 20px;
+}
+.abdullah {
+  font-size: large;
+}
+.abc {
+  color: blue;
+}
+button {
+  width: 100%;
+  height: 40px;
+  background-color: #67c1f4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}

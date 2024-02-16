@@ -1,0 +1,117 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+header {
+  background-color: #24252a;
+  display: flex;
+  color: white;
+  height: 60px;
+  padding: 0 100px;
+  justify-content: space-between;
+  align-items: center;
+  min-width: none;
+}
+.one {
+  gap: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: none;
+}
+a {
+  text-decoration: none;
+  color: #ecdddd;
+  transition: all 1s;
+  min-width: none;
+}
+.rounded-button {
+  border-radius: 20px;
+  padding: 6px 20px;
+  border: none;
+  background-color: rgb(37, 0, 224);
+  min-width: none;
+  color: white;
+}
+samp {
+  font-size: x-large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: red;
+  min-width: none;
+}
+h2 {
+  min-width: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.style:hover {
+  background-color: yellow;
+  transform: scale(1.5) skew(2deg);
+  color: black;
+  padding: 5px;
+  min-width: none;
+}
+.first {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid green; */
+  min-width: none;
+}
+.active {
+  background-color: hwb(0 0% 0%);
+  border: 1px solid black;
+  padding: 5px;
+  min-width: none;
+}
+body {
+  background-color: #f3f3f3;
+}
+.head {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border-collapse: collapse;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  background-color: aqua;
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+}
+td {
+  /* border: 2px solid green; */
+  padding: 2%;
+  /* text-align: center; */
+  /* background-color: gray; */
+}
+th {
+  /* border: 2px solid green; */
+  padding: 2%;
+  text-align: left;
+  /* background-color: aqua; */
+}
+.mid {
+  background-color: #f3f3f3;
+  color: #0d8e79;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serifS;
+}
+tr {
+  border: 1px solid #f3f3f3;
+  /* box-shadow: 1px 1px 5px black; */
+  background-color: #ffffff;
+}
+.top {
+  background-color: #019879;
+  color: white;
+}
+
+th:first-child {
+  border-top-left-radius: 20px;
+}
+th:last-child {
+  border-top-right-radius: 20px;
+}
+table {
+  border-bottom: 10px solid#019879;
+}

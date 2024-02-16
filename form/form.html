@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Page</title>
+    <link rel="stylesheet" href="../utlity-css.css" />
+    <link rel="stylesheet" href="./form.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="first">
+      <header>
+        <h2>SAIM <samp>KHAN</samp></h2>
+        <div class="one">
+          <a class="style" href="../index.html">Home</a>
+          <a class="active style" class="style" href="#Form">Form</a>
+          <a class="style" href="../table/table.html">Table</a>
+        </div>
+        <a href="../contact/contact.html"
+          ><button class="rounded-button">Contact</button></a
+        >
+      </header>
+    </div>
+    <p>Try <span>Sign</span> free for 14 days</p>
+    <p class="abdullah">
+      Already have a Formstack account?
+      <a class="abc" href=""
+        >Start your trial in app
+        <i
+          style="font-size: medium"
+          class="fa-solid fa-circle-chevron-right"
+        ></i
+      ></a>
+    </p>
+    <form action="">
+      <fieldset>
+        <main class="form-fields">
+          <div class="flex">
+            <div class="name">
+              <label for="first name">FIRST NAME</label><br /><br />
+              <input
+                class="one"
+                type="text"
+                id="first name"
+                name="first name"
+                placeholder="Saim"
+                required
+              />
+            </div>
+            <div class="name">
+              <label for="last name">LAST NAME</label><br /><br />
+              <input
+                class="one"
+                type="text"
+                name="last name"
+                id="last name"
+                placeholder="Khan"
+                required
+              />
+            </div>
+          </div>
+          <br />
+          <div>
+            <label for="work email">WORK EMAIL</label><br /><br />
+            <input
+              class="two"
+              type="email"
+              name="work email"
+              id="work email"
+              placeholder="saimkhan@gmail.com"
+              required
+            />
+          </div>
+          <br />
+          <div>
+            <label for="password">PASSWORD</label><br /><br />
+            <input
+              class="two"
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+              required
+            />
+          </div>
+          <br />
+          <div>
+            <label for="organization name">ORGANIZATION NAME</label><br /><br />
+            <input
+              class="two"
+              type="text"
+              name="organization name"
+              id="organization name"
+              placeholder="ABC Organization"
+              required
+            />
+          </div>
+          <br />
+          <div>
+            <label for="organization size">ORGANIZATION SIZE</label><br /><br />
+            <select
+              class="three"
+              name="organization size"
+              id="organization size"
+              required
+            >
+              <option hidden>--Select--</option>
+              <option value="1-10">1-10</option>
+              <option value="10-50">10-50</option>
+              <option value="100-500">100-500</option>
+              <option value="1000-5000">1000-5000</option>
+              <option value="5000-10000">5000-10000</option>
+            </select>
+          </div>
+          <br />
+          <div>
+            <label for="industry">INDUSTRY</label><br /><br />
+            <select class="three" name="industry" id="industry" required>
+              <option hidden>--Select--</option>
+              <option value="Construction">Construction</option>
+              <option value="Automobiles">Automobiles</option>
+              <option value="Agriculture">Agriculture</option>
+              <option value="Pharmaceutical">Pharmaceutical</option>
+              <option value="Textile industry">Textile industry</option>
+            </select>
+          </div>
+        </main>
+        <br />
+        <p class="fs-18px text-left opacity-0_8">
+          Formstact has updated our terms of service effective January 4 2024.
+          <br />
+          We encourage you to read the document in its entirety.
+        </p>
+        <br />
+        <br />
+        <div style="display: flex; gap: 20px">
+          <input class="fs-18px opacity-0_9" type="checkbox" />
+          <p class="fs-18px text-left opacity-1">
+            I understant and agree to the
+            <a class="underline abc" href="">Formstact Privacy Policy,</a
+            ><a class="underline abc" href="">Software</a> <br /><a
+              class="underline abc"
+              href=""
+            >
+              Service Agreement,</a
+            >
+            and
+            <a class="underline abc" href="Acceptable Use Policy"
+              >Acceptable Use Policy.</a
+            >
+          </p>
+        </div>
+        <br />
+        <br />
+        <button class="fs-18px w-700">Start Free trial</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

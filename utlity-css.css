@@ -1,0 +1,127 @@
+.fs-12px {
+  font-size: 12px;
+}
+.fs-14px {
+  font-size: 14px;
+}
+.fs-16px {
+  font-size: 16px;
+}
+.fs-18px {
+  font-size: 18px;
+}
+.fs-20px {
+  font-size: 20px;
+}
+.fs-22px {
+  font-size: 22px;
+}
+.fs-24px {
+  font-size: 24px;
+}
+.fs-26px {
+  font-size: 26px;
+}
+.fs-28px {
+  font-size: 28px;
+}
+.fs-30px {
+  font-size: 30px;
+}
+.fs-32px {
+  font-size: 32px;
+}
+.fs-34px {
+  font-size: 34px;
+}
+.fs-36px {
+  font-size: 36px;
+}
+
+/* text align classes */
+
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+
+/* font weight classes */
+
+.w-100 {
+  font-weight: 100;
+}
+.w-200 {
+  font-weight: 200;
+}
+.w-300 {
+  font-weight: 300;
+}
+.w-400 {
+  font-weight: 400;
+}
+.w-500 {
+  font-weight: 500;
+}
+.w-600 {
+  font-weight: 600;
+}
+.w-700 {
+  font-weight: 700;
+}
+.w-800 {
+  font-weight: 800;
+}
+.w-900 {
+  font-weight: 900;
+}
+.w-950 {
+  font-weight: 950;
+}
+
+/* opacity classes */
+.opacity-0_1 {
+  opacity: 0.1;
+}
+.opacity-0_2 {
+  opacity: 0.2;
+}
+.opacity-0_3 {
+  opacity: 0.3;
+}
+.opacity-0_4 {
+  opacity: 0.4;
+}
+.opacity-0_5 {
+  opacity: 0.5;
+}
+.opacity-0_6 {
+  opacity: 0.6;
+}
+.opacity-0_7 {
+  opacity: 0.7;
+}
+.opacity-0_8 {
+  opacity: 0.8;
+}
+.opacity-0_9 {
+  opacity: 0.9;
+}
+.opacity-1 {
+  opacity: 1;
+}
+
+/* text decoration classes */
+.underline {
+  text-decoration: underline;
+}
+.no-decoration {
+  text-decoration: none;
+}
+.border {
+  border: 2px solid red;
+}
